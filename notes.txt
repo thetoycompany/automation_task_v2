@@ -1,0 +1,8 @@
+log in
+
+1. front end check - check log in front end is available and check we are on the correct page - username password and log in options
+2. missing log in information - log in - no username, log in no password, 
+3. incorrect information - error messaging - log in incorrect username, log in incorrect password
+4. log in easy path- successfull log in -  check we can enter our log in credentials and log in 
+5. create an account
+6. log in with existing accounts
