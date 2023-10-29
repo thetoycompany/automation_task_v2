@@ -22,4 +22,4 @@ cd automation_task_v2
 
 ```bash
 npm install npm
-
+npm install cypress --save-dev
