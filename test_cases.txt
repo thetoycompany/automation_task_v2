@@ -79,7 +79,8 @@
 4. API testing for user profile data etc
 5. Finish forgot password loop
 6. Accessibility testing - plugins - https://www.npmjs.com/package/cypress-accessibility-checker
-7 Usability tests for process flows etc
+7. Usability tests for process flows etc
+8. Follow best practice with cypress better for retireving front end elements
 
 
 === Considerations from assigment ===
