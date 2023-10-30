@@ -5,7 +5,7 @@ const lgnpage = () => {
 }
 
 describe('Enters account details and has a successful log in', () => {
-  it('enters account details', () => {
+  it('enters account details and log in is successful', () => {
 
     cy.fixture('login.json').then(function(login) {
       lgnpage()
