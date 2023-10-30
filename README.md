@@ -10,11 +10,6 @@ Future developments: to test in different environments such as windows or linux
 
 ## Installation
 
-<<<<<<< HEAD
-##installation
-=======
->>>>>>> e00886c6718d599d87b135348944e98c99aefa0d
-
 # Installation
 Using cypress to fulfil the requirements of the automation task set
 Navigate to your chosen directory to pull repo into on your device
@@ -32,10 +27,6 @@ git pull https://github.com/thetoycompany/automation_task_v2
 ### install node here for your device
 https://nodejs.org/en/download 
 
-##  Open repo in cmd line
-```bash
-cd automation_task_v2
-```
 ## install npm(node package manager) into repo
 ```bash
 npm install npm
