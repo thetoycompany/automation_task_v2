@@ -20,7 +20,7 @@ cd automation_task_v2
 `bash
 npm install npm
 npm install cypress --save-dev
-npm install --save-dev cypress-cucumber-preprocessor
+
 npx cypress open
 
 or in the console - npx cypress run
