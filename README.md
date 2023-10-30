@@ -6,8 +6,10 @@ To note: I am using a MacBook pro currently running macOS Monterey, version 12.6
 
 Future developments: to test in different environments such as windows or linux and on older versions of macOS.
 
+Using cypress to fulfil the requirements of the automation task set 
+
 # Installation
-Using cypress to fulfil the requirements of the automation task set
+
 Navigate to your chosen directory to pull repo into on your device
 ```bash
 cd your/chosen/path
@@ -38,7 +40,7 @@ npm install cypress --save-dev
 npx cypress run
 ```
 
-###  to open the IDE for cypress 
+###  To open the IDE for cypress 
 ```
 npx cypress open
 ```
