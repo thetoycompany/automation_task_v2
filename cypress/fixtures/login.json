@@ -1,0 +1,6 @@
+{
+  "valid_username" : "toyinm4rtins@gmail.com",
+  "invalid_username" : "toyinmertins@gmail.com",
+  "valid_password" : "Testing123",
+  "invalid_password" : "NotValid123"
+}
