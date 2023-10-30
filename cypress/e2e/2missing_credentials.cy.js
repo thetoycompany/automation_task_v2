@@ -21,7 +21,7 @@ describe('Check that a user cannot login, when there is missing information', ()
   it('Shows error message when entering no log in credentials', () => {
     lgnpage()
     cy.get('#logIn').click()
-    cy.get("#username-container")cy.get("#logIn")..contains("Required")
+    cy.get("#username-container").get('[data-qa-id="undefined-help-text"]').contains("Required")
     cy.get("#password-container").get('[data-qa-id="undefined-help-text"]').contains("Required")
     cy.get('p').contains('Please fill in all of the required fields')
     cy.get("#logIn").should('have.attr', 'disabled');

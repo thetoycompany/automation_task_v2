@@ -1,4 +1,6 @@
-1 front end 
+=== Test cases to match files  ===
+
+1. front end 
 - Given I am on the hudl.com/login url trying to log in
 - When I am on hudl.com/login, I can see
   - The log in page
@@ -62,5 +64,25 @@
 
 7. Log in successful
 - Given I am going to log in with existing and correct credentials
-- When 
+- When I am on hudl.com/login
+  - Then I enter a valid email and password 
+- When I enter a valid email and password
+  - Then I can select the continue button
+- When I select the continue button
+ - Then I am logged into my hudl account 
 
+=== Future Tests ====
+
+1. Consider what happens when you enter an incorrect email in forgotten password Test
+2. check social links work
+3. load Testing
+4. API testing for user profile data etc
+5. Finish forgot password loop
+6. Accessibility testing - plugins - https://www.npmjs.com/package/cypress-accessibility-checker
+7 Usability tests for process flows etc
+
+
+=== Considerations from assigment ===
+
+1. Not released to production so URL's probably be different and would have to set up environment alongside these tests
+2. Not best practice to include password and sensitive information in these files, for ease i have left them in but this is not how i would handle this data, i would probably place the files in git ignore and enable each user who pulls these tests scripts to creaste their own json file with their own senstive data...

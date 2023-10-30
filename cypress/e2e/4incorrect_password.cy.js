@@ -9,8 +9,8 @@ var valid_username = 'toyinm4rtins@gmail.com'
 var fake_password = 'Testing'
 
 
-describe('template spec', () => {
-  it('passes', () => {
+describe('Throws error message to user when incorrect password entered', () => {
+  it('Enters credentials and clicks continue, then an error message is shown', () => {
     lgnpage()
     cy.get("#logIn").should('be.enabled');
     cy.get('#username-container').type(valid_username)
