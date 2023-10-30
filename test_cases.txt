@@ -1,0 +1,66 @@
+1 front end 
+- Given I am on the hudl.com/login url trying to log in
+- When I am on hudl.com/login, I can see
+  - The log in page
+  - The log in modal
+  - I can see input boxes for email and password
+  - I can select forget password
+  - I can see the site terms and privacy policy
+  - I can see the continue CTA to log me in
+  - I can see alternate log in options using facebook, apple and google
+  - I can create an account by clicking in the navbar or on the log in container
+  - I can see the hudl logo
+
+
+2. Missing information
+
+- Given I am on the hugl.com/login url
+- When I do not enter any information and select continue
+  - Then an error message if displayed
+- When I enter only my username and select continue
+  - Then an error message is displayed
+- When I enter only my password and select continue 
+  - Then an error message is displayed
+
+3. Forgotten password
+- Given I am on the hudl.com/login url and I have forgotten my fake_password
+- When I select forgotten password
+  - Then I am taken to a new URL and the interface changes
+  - I can enter my email
+- When i have entered my email
+ - Then i select the continue CTA
+ - An email is triggered
+
+
+4. incorrect password
+- Given I am going to enter an incorrect password
+- When i am on the hudl.com/login page and I enter the correct username and the incorrect password
+  - Then I see a message saying that these crednetials(email and password) were not recognised 
+
+
+
+ 5. User does not exist
+ - Given i enter the credentials for a user that has not been created
+ - When i am on the hudl.com/login page
+   - Then i enter log in credentials that do not exist in the disabled
+   - I log in by selecting continue
+- When i log in with a non existent user
+  - Then I see a message saying that these crednetials(email and password) were not recognised 
+
+6. Creating a new user
+- Given I am going to create a new user on hudl.com/login
+- When select create account on the hudl.com/login page
+  - Then I can see the interface changes
+- When the interface has changed
+  - Then I can see that the create account page
+- When i can see the create account page
+  - Then I can enter, my first and last name, my email, my password and confirm my password
+- When I have entered my credentials
+  - Then I can click sign up
+- When i click sign up
+ - Then i am redirected to fan.hudl.com
+
+7. Log in successful
+- Given I am going to log in with existing and correct credentials
+- When 
+
