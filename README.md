@@ -1,9 +1,5 @@
-# automation_task_v2
+# Installation
 Using cypress to fulfil the requirements of the automation task set
-
-
-##installation
-
 Navigate to your chosen directory to pull repo into on your device
 ```bash
 cd your/chosen/path
