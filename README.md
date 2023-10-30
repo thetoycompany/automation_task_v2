@@ -27,11 +27,11 @@ git pull https://github.com/thetoycompany/automation_task_v2
 ### install node here for your device
 https://nodejs.org/en/download 
 
-## install npm(node package manager) into repo
+## Install npm(node package manager) into repo
 ```bash
 npm install npm
 ```
-
+## Install Cypress
 ```
 npm install cypress --save-dev
 ```
