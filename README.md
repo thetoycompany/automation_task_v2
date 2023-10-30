@@ -6,10 +6,6 @@ To note: I am using a MacBook pro currently running macOS Monterey, version 12.6
 
 Future developments: to test in different environments such as windows or linux
 
-# Table Of Contents
-
-## Installation
-
 # Installation
 Using cypress to fulfil the requirements of the automation task set
 Navigate to your chosen directory to pull repo into on your device
@@ -47,3 +43,10 @@ npx cypress run
 npx cypress open
 ```
 Select e2e tests and then chrome then start e2e in chrome
+
+
+## Notes
+
+- Test cases are inside of "test_cases.txt"
+- Data in cypress/fixtures/login.json
+- Tests in cypress/e2e
