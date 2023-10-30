@@ -47,6 +47,12 @@ Select e2e tests and then chrome then start e2e in chrome
 
 ## Notes
 
+### Test Cases
 - Test cases are inside of "test_cases.txt"
+
+### Data
+
 - Data in cypress/fixtures/login.json
+
+### Test Scripts
 - Tests in cypress/e2e
