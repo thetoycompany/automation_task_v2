@@ -4,7 +4,8 @@ const lgnpage = () => {
     
   }
   
-  
+
+  // credentials using an email not yet in existence - cant check back end but working on that assumption
   var invalid_username = 'toyinm4rtins@hudl.org'
   var fake_password = 'Testing'
   
@@ -17,6 +18,7 @@ const lgnpage = () => {
       cy.get('#password-container').type(fake_password)
       cy.get("#logIn").click()
       cy.wait(500)
+      // same error messaging raised for this problem to protect password security
       cy.get('[data-qa-id="undefined-text"]').contains("We don't recognize that email and/or password")
     })
   })
